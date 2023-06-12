@@ -1,9 +1,10 @@
-import Container from "@/components/container";
+import DashboardLayout from "@/app/dashboard/layout";
+
 
 export default function Dashboard() {
     return (
-        <Container>
-            <h1 className={"text-white font-bold text-2xl"}>Dashboard</h1>
-        </Container>
+        <div>
+            <p>This is some text</p>
+        </div>
     )
 }

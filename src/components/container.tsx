@@ -1,7 +1,7 @@
-export default function Container (props) {
-    const {children} = props;
+//@ts-ignore
+export default function Container ({children}: { children: React.ReactNode; }) {
 return(
-    <div className={"container mx-auto"}>
+    <div className={"container mx-auto px"}>
         {children}
     </div>
 )
