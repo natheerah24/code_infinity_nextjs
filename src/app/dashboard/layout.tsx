@@ -5,7 +5,9 @@ export default function DashboardLayout({children}: { children: React.ReactNode;
     return (
     <>
         <Container>
+            <Link href={"/dashboard"}>
             <h1 className={"text-white font-bold text-2xl"}>Dashboard</h1>
+            </Link>
             <nav>
                 <Link href={"/dashboard/settings"}>Settings</Link>
             </nav>
